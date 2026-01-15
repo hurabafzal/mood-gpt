@@ -1,0 +1,41 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black speech bubble background -->
+  <rect x="10" y="10" width="180" height="180" rx="20" fill="black"/>
+  
+  <!-- Quadrants -->
+  <!-- Red - Angry (Top Left) -->
+  <rect x="15" y="15" width="85" height="85" fill="#FF4D4D"/>
+  
+  <!-- Yellow - Happy (Top Right) -->
+  <rect x="100" y="15" width="85" height="85" fill="#FFB700"/>
+  
+  <!-- Purple - Sad (Bottom Left) -->
+  <rect x="15" y="100" width="85" height="85" fill="#9747FF"/>
+  
+  <!-- Green - Cute (Bottom Right) -->
+  <rect x="100" y="100" width="85" height="85" fill="#2ECC71"/>
+  
+  <!-- Speech bubble tail -->
+  <polygon points="30,190 15,205 15,175" fill="black"/>
+  
+  <!-- Faces (simplified as shapes) -->
+  <!-- Angry face -->
+  <circle cx="40" cy="40" r="5" fill="black"/>
+  <circle cx="70" cy="40" r="5" fill="black"/>
+  <path d="M40,65 Q57.5,55 75,65" stroke="black" stroke-width="3" fill="none"/>
+  
+  <!-- Happy face -->
+  <circle cx="125" cy="40" r="5" fill="black"/>
+  <circle cx="155" cy="40" r="5" fill="black"/>
+  <path d="M125,65 Q140,75 155,65" stroke="black" stroke-width="3" fill="none"/>
+  
+  <!-- Sad face -->
+  <circle cx="40" cy="125" r="5" fill="black"/>
+  <circle cx="70" cy="125" r="5" fill="black"/>
+  <path d="M40,150 Q57.5,140 75,150" stroke="black" stroke-width="3" fill="none"/>
+  
+  <!-- Cute face -->
+  <circle cx="125" cy="125" r="5" fill="black"/>
+  <circle cx="155" cy="125" r="5" fill="black"/>
+  <path d="M125,150 Q140,160 155,150" stroke="black" stroke-width="3" fill="none"/>
+</svg>

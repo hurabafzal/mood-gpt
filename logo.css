@@ -1,0 +1,97 @@
+/* Logo container */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Logo design */
+.logo {
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Quadrants */
+.quadrant {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Specific mood colors */
+.angry {
+  background-color: #ff4d4d; /* Red */
+}
+
+.happy {
+  background-color: #ffb700; /* Yellow */
+}
+
+.sad {
+  background-color: #9747ff; /* Purple */
+}
+
+.cute {
+  background-color: #2ecc71; /* Green */
+}
+
+/* Face emojis */
+.face {
+  font-size: 24px;
+}
+
+/* Speech bubble tail */
+.tail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #000000;
+  transform: translateY(25%) rotate(45deg);
+}
+
+/* Logo text */
+.logo-text {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mood {
+  color: #000000;
+}
+
+.gpt {
+  color: #333333;
+}
+
+/* Responsive sizes */
+@media (max-width: 768px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .face {
+    font-size: 16px;
+  }
+
+  .tail {
+    width: 8px;
+    height: 8px;
+  }
+
+  .logo-text {
+    font-size: 18px;
+  }
+}

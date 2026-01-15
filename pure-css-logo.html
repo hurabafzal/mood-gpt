@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoodGPT Logo - Pure CSS</title>
+  <style>
+    /* Logo container */
+    .moodgpt-logo {
+      width: 200px;
+      height: 200px;
+      position: relative;
+      margin: 50px auto;
+    }
+    
+    /* Main speech bubble */
+    .speech-bubble {
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      border-radius: 24px;
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      overflow: hidden;
+    }
+    
+    /* Speech bubble tail */
+    .speech-bubble:after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 30px;
+      width: 30px;
+      height: 30px;
+      background-color: #000;
+      transform: rotate(45deg);
+    }
+    
+    /* Quadrants */
+    .quadrant {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+    }
+    
+    .angry {
+      background-color: #FF4D4D;
+    }
+    
+    .happy {
+      background-color: #FFB700;
+    }
+    
+    .sad {
+      background-color: #9747FF;
+    }
+    
+    .cute {
+      background-color: #2ECC71;
+    }
+    
+    /* Logo text */
+    .logo-text {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .mood {
+      color: #000;
+    }
+    
+    .gpt {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="moodgpt-logo">
+    <div class="speech-bubble">
+      <div class="quadrant angry">😠</div>
+      <div class="quadrant happy">😊</div>
+      <div class="quadrant sad">😢</div>
+      <div class="quadrant cute">😍</div>
+    </div>
+    <div class="logo-text">
+      <span class="mood">Mood</span><span class="gpt">GPT</span>
+    </div>
+  </div>
+</body>
+</html>
